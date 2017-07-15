@@ -43,7 +43,7 @@ Initial implementation on a fork of [standard http performance testing libary][h
 BenchmarkVestigo_GithubAll         20000             75763 ns/op            9280 B/op        339 allocs/op
 ```
 
-I should mention that the above performance is about 2x slower then the fastest URL router I have tested (Echo/Gin), and
+I should mention that the above performance is about 2x slower than the fastest URL router I have tested (Echo/Gin), and
 is slightly worse than HTTPRouter, but I am happy with this performance considering this implementation is the fastest 
 implementation that can handle standard http.HandlerFunc handlers, without forcing end users to use a particular context, 
 or use a non-standard handler function, locking them into an implementation.
